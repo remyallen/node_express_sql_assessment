@@ -1,0 +1,7 @@
+CREATE TABLE animal
+    (
+        id SERIAL NOT NULL,
+        animal_type character varying(255) NOT NULL,
+        animal_number character varying(255) NOT NULL,
+        CONSTRAINT zoo_pkey PRIMARY KEY (id)
+    );
